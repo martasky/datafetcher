@@ -43,10 +43,6 @@ function prepareData(jsonData) {
       obj[elem].amount += 1;
     }
   });
-  /*   var result = [];
-  for (var key in obj) {
-    result.push({ beer: key, amount: obj[key] });
-  } */
 
   const data = {
     timestamp: timestamp,
