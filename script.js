@@ -57,7 +57,7 @@ function prepareData(jsonData) {
   post(data);
 }
 
-function post(data, endpoint) {
+function post(data, callback) {
   const postData = JSON.stringify(data);
   fetch(endpoint, {
     method: "post",
